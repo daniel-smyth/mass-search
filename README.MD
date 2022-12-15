@@ -1,12 +1,12 @@
 # Python Trie Traversal
 
-Python implementation of trie traversal. Search a string (e.g. HTML file) containing millions of characters for matches within a trie tree containing millions of words in less than 0.5 seconds.
+Python implementation of a trie traversal. Search a string (e.g. HTML file) containing millions of characters for matches within a trie tree containing millions of words in less than 0.5 seconds.
 
 ### Description
 
-Generates a random list of strings that are added to the trie. Adds two sample strings that are contained in the sample HTML. Fetches sample HTML from Dropbox. Searches HTML using trie data and outputs the result. The result contains the match with its start/end index within the HTML.
+Generates a random list of strings that are added to the trie. Adds two sample strings that are contained in the sample HTML. Fetches sample HTML from Dropbox. Searches HTML using trie data and outputs the result. The result contains the matches with their start/end index within the HTML.
 
-**Sample output**
+### Sample output
 
 Sample output for a trie tree of 10,000,000 words searching a HTML document of 2,500,000 characters.
 
@@ -22,7 +22,7 @@ Search time: 0.11101756499920157 seconds
 
 ```
 
-**Trie & Node logic**
+### Trie & Node logic
 
 ```python
 class Node:
@@ -134,7 +134,3 @@ Run main.py
 python main.py
 
 ```
-
-### Benchmark on my PC:
-
-**10,000,000 strings, 100,000 sample HTML: 0.561 seconds**
