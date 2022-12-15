@@ -1,6 +1,6 @@
 # Python Trie Traversal
 
-Python implementation of a trie traversal. Search a string (e.g. HTML file) containing millions of characters for matches within a trie tree containing millions of words in less than 0.5 seconds.
+My Python implementation of a trie traversal. Search a string (e.g. HTML file) containing millions of characters for matches within a trie tree containing millions of words in less than 0.5 seconds.
 
 ### Description
 
